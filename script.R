@@ -5,7 +5,7 @@ require(wordcloud)
 require(tm)
 require(SnowballC)
 
-# Importar tuits
+# Importar tweets
 texto <- read.table('tuits.txt',
                    header = FALSE,
                    stringsAsFactors = FALSE,
